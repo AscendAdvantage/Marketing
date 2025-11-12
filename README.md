@@ -1,2 +1,9 @@
 # Marketing
 Marketing Web
+{
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start"
+  }
+}
