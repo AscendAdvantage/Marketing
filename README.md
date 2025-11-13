@@ -19,3 +19,13 @@ Marketing Web
   npm install next react react-dom
    npm ci
 npm run build
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  swcMinify: true,
+  // Leave distDir as default ".next"
+  // If you ever change it, update Netlify config accordingly
+};
+
+module.exports = nextConfig;
